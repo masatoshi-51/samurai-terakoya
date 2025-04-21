@@ -1,0 +1,145 @@
+body {
+    margin-top: 20px;
+    font-family: "Noto Sana Japanese",sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    min-width: 765px;
+}
+a  {
+    font-size: 34px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+#header  h1 {
+    border: solid 1px;
+    padding: 10px;
+    font-size: 34px;
+    margin-left: 100px;
+}
+.navige {
+    margin-left: 100px;
+    padding: 30px;
+    font-weight: bold;
+}
+.camera {
+    width: 100%;
+}
+.h2-style {
+    margin: 50px;
+    font-size: 34px;
+    text-align: center;
+}
+.name {
+    font-size: 24px;
+}
+ul {
+    font-size: 18px;
+}
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* PC用スタイル */
+@media screen and (min-width:768px) {
+
+/* aboutセクション */
+#about {
+    width: 100%;
+}
+.about-1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.jigazou {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.jikosyoukai {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+/* works */
+#works {
+    width: 100%;
+}
+
+#works .fuukei{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#works .fuukei div {
+    margin: 10px;
+    width: 33%;
+    text-align: left;
+}
+
+#works .fuukei div img {
+    width: 100%;
+    height: auto;
+}
+
+#works .fuukei div p {
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+
+
+/* スマホ用スタイル */
+@media screen and (max-width:767px) {
+   /* about */
+    #about {
+        margin-top: 100px;
+    }
+    .about-1 {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    } 
+    .about-1 img {
+        width: 60%;
+        display: block;
+        margin: auto;
+        height: auto;
+        border-radius: 100%;
+    }
+    .jikosyoukai {
+        display: block;
+        margin: 0 100px;
+    }
+
+    .jikosyoukai ul {
+        word-wrap: break-word;
+    }
+
+    /* Works */
+    #works .fuukei div {
+        width: 100%;
+        text-align: center;
+    }
+    #works .fuukei div img {
+        width: 70%;
+        margin: 10px;
+        height: auto;
+    }
+
+}
+
+
